@@ -1,0 +1,333 @@
+.basic {
+    width: 40%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blue;
+    background: linear-gradient(to right, blue, aqua, blue);
+    padding-bottom: 20px;
+}
+
+.premium {
+    width: 40%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blueviolet;
+    background: linear-gradient(to right, blueviolet, blue, blueviolet);
+    padding-bottom: 20px;
+}
+
+.gold {
+    width: 40%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gold;
+    background: linear-gradient(to right, gold, goldenrod, gold);
+    padding-bottom: 20px;
+}
+
+.main {
+    width: 50%;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, green, greenyellow, green);
+    padding-top: 10px;
+}
+
+.mainh {
+    width: 50%;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgba(142, 123, 2, 0.784), rgb(255, 255, 0), rgba(142, 123, 2, 0.784));
+    padding-bottom: 10px;
+}
+
+.hbasic {
+    background-color: blue;
+    border-style: solid;
+    border-color: blue;
+}
+
+.hpremium {
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.hgold {
+    background-color: gold;
+    border-style: solid;
+    border-color: gold;
+}
+
+#bbasic {
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+#bpremium {
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+#bgold {
+    width: 150px;
+    height: 50px;
+    border-style: solid;
+    border-color: gold;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+
+body {
+    background: linear-gradient(to right, rgba(142, 123, 2, 0.784), rgb(255, 255, 0), rgba(142, 123, 2, 0.784));
+
+}
+
+h3 {
+    display: flex;
+    text-align: left;
+    padding-left: 10px;
+    align-items: center;
+}
+
+h3 img {
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+#l {
+    margin-top: 50px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#l:hover {
+    border-color: aqua;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#s {
+    margin-top: 50px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-right: 400px;
+    display: flex;
+    align-items: center;
+}
+
+#s:hover {
+    border-color: aqua;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.bbody {
+    background: linear-gradient(to right, whitesmoke, white, whitesmoke);
+}
+
+.item{
+    height: 20vh;
+    width: 20%;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.item img{
+    width: 100px;
+}
+
+.item:hover{
+width: 30%;
+transition-property: all;
+    transition-duration: 1.5s;
+}
+
+.container{
+    display: flex;
+     justify-content: space-around;
+    background-color: blue;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px;
+   width: 60%;
+}
+
+.html{
+    animation-name: wave1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+}
+
+@keyframes wave1{
+    0%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+    50%{
+        margin-left: 500px;
+        background-color: red; 
+    }
+    100%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+}
+
+.css{    animation-name: wave2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.6s;
+}
+
+@keyframes wave2{
+    0%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+    50%{
+        margin-left: 500px;
+        background-color: red; 
+    }
+    100%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+}
+
+.js{
+    animation-name: wave3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+}
+
+@keyframes wave3{
+    0%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+    50%{
+        margin-left: 500px;
+        background-color: red; 
+    }
+    100%{
+        margin-left: 0px;
+        background-color: blue;
+    }
+}
+
+.bigbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation{
+    flex: content;
+    display: inline-flex;
+}
+
+#button{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aqua;
+    background-color: white;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+#button:hover{
+    background-color: rgb(167, 206, 241);
+    border-color: rgb(0, 255, 191);
+}
+
+*{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#streak{
+    width: 40%;
+}
+
+.equip{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: aquamarine;
+    background-color: aqua;
+    border-width: 5px;
+    width: 10%;
+    height: 5vh;
+}
+
+.seperator{
+    width: 50%;
+}
+
+.upper-nav{
+display: flex;
+align-items: center;
+}
+
+.hubody{
+    background-color: blue; 
+}
+
+.premium-access{
+    margin: auto;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+    background-color: rgb(217, 232, 251);
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    width: 25%;
+animation-name: loading;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
+
+
+.coming{
+    width: 50%;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.nav-tab{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+  font-size: 8px;
+}
+
